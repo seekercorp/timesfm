@@ -39,6 +39,12 @@ cpu = [
     "torch>=2.0.0",
     "jax[cpu]",
 ]
+# Dev extras for notebooks and quick exploration
+dev = [
+    "jupyter",
+    "matplotlib",
+    "pandas",
+]
 
 [tool.ruff]
 line-length = 88
