@@ -34,3 +34,8 @@ pytest v1/tests/
 ```
 
 See `README.md` for full developer setup.
+
+## Personal notes
+
+- I'm using this fork primarily to experiment with fine-tuning on custom time-series datasets.
+- Tests in `v1/tests/` can be slow; run `pytest v1/tests/ -x -q` for a quicker feedback loop.
