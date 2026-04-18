@@ -41,3 +41,5 @@ See `README.md` for full developer setup.
 - Tests in `v1/tests/` can be slow; run `pytest v1/tests/ -x -q` for a quicker feedback loop.
 - Fine-tuning experiments and results are tracked in `experiments/` (gitignored locally).
 - Useful reference: the context length default is 512 — I've been testing with 256 for shorter series.
+- When loading checkpoints locally, set `TIMESFM_CACHE_DIR=~/.cache/timesfm` to avoid re-downloading.
+- Horizon length of 128 seems to be the sweet spot for my datasets; going to 256 noticeably increases inference time.
