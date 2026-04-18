@@ -39,3 +39,5 @@ See `README.md` for full developer setup.
 
 - I'm using this fork primarily to experiment with fine-tuning on custom time-series datasets.
 - Tests in `v1/tests/` can be slow; run `pytest v1/tests/ -x -q` for a quicker feedback loop.
+- Fine-tuning experiments and results are tracked in `experiments/` (gitignored locally).
+- Useful reference: the context length default is 512 — I've been testing with 256 for shorter series.
